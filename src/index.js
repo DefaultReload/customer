@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import App from './App'; // Now App will manage routes, including Login
+import reportWebVitals from './Account/reportWebVitals';
+import App from './Account/App'; // Now App will manage routes, including Login
 
 import { BrowserRouter } from 'react-router-dom';
 

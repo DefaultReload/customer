@@ -5,7 +5,7 @@ import { auth } from './firebaseConfig';
 import { FaEnvelope, FaLock } from 'react-icons/fa'; // Importing icons
 import Signup from './signup';
 import Profile from './Home';
-import loginImage from './assets/login.png';
+import loginImage from '../assets/login.png';
 
 import './Login.css';
 
