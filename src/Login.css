@@ -1,0 +1,134 @@
+/* General Page Styling */
+.body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  width: 350px;
+  position: relative;
+}
+
+/* Login Heading */
+.login-container h1 {
+  font-size: 40px;
+  color: #223d3c;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+}
+
+/* Input fields */
+.input-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input {
+  width: 125%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 90px;
+  border: 1px solid #223d3c;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.input-container label {
+  font-size: 14px;
+  color: #010101;
+}
+
+/* Button styles */
+.login-button {
+  background-color: #223d3c;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+}
+
+.login-button:disabled {
+  background-color: #999;
+}
+
+/* Forgot password & Sign up link */
+.sign-up-text,
+.reset-password {
+  font-size: 14px;
+  color: #223d3c;
+  margin-top: 10px;
+}
+
+.sign-up-link {
+  color: #223d3c;
+  cursor: pointer;
+}
+
+.sign-up-link:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Email and Password Icons */
+.icon {
+  position: absolute;
+  top: 170px;
+  left: 15px;
+  font-size: 18px;
+  color: #2F3E46;
+}
+
+.password-icon {
+  top: 250px;
+}
+
+input {
+  padding-left: 40px;
+}
+
+.password-toggle {
+  display: inline-block;
+  font-size: 14px;
+  color: #007BFF;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Login Image */
+.login-image {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+}

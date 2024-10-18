@@ -1,0 +1,58 @@
+.app-container {
+    display: flex; /* Makes the navbar and main content display side by side */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.nav {
+    width: 250px; /* Width of the navbar */
+    background-color: hsl(0, 0%, 100%);
+    color: #000000; /* Light color for links */
+}
+
+.main-content {
+    flex: 1; /* Takes the remaining width */
+    padding: 20px; /* Adds some padding for content */
+    background-color: #f5f5f5; /* Background color for the main content */
+}
+
+.site-title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(70, 97, 84, 0.8);
+    color: #fff;
+}
+
+a:focus,
+a:active {
+    background-color: rgba(70, 97, 84, 0.8); /* Background color when the link is focused or active */
+    color: #fff; /* Text color when the link is focused or active */
+}
+
+
